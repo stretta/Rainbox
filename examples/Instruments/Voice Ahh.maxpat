@@ -404,20 +404,20 @@
 									"patching_rect" : [ 720.0, 303.0, 291.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"fromnormalized" : "",
-										"steps" : 0.0,
-										"value" : 0.0,
-										"sendinit" : 1,
+										"unit" : "",
 										"ctlin" : 0.0,
-										"meta" : "",
+										"displayname" : "",
 										"displayorder" : "-",
+										"order" : "0",
+										"sendinit" : 1,
 										"exponent" : 1.0,
 										"tonormalized" : "",
-										"unit" : "",
-										"order" : "0",
-										"enum" : "",
-										"displayname" : "",
-										"preset" : 1
+										"meta" : "",
+										"fromnormalized" : "",
+										"preset" : 1,
+										"steps" : 0.0,
+										"value" : 0.0,
+										"enum" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -823,20 +823,20 @@
 									"patching_rect" : [ 689.0, 269.0, 275.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"fromnormalized" : "",
-										"steps" : 0.0,
-										"value" : 0.0,
-										"sendinit" : 1,
+										"unit" : "",
 										"ctlin" : 0.0,
-										"meta" : "",
+										"displayname" : "",
 										"displayorder" : "-",
+										"order" : "0",
+										"sendinit" : 1,
 										"exponent" : 1.0,
 										"tonormalized" : "",
-										"unit" : "",
-										"order" : "0",
-										"enum" : "",
-										"displayname" : "",
-										"preset" : 1
+										"meta" : "",
+										"fromnormalized" : "",
+										"preset" : 1,
+										"steps" : 0.0,
+										"value" : 0.0,
+										"enum" : ""
 									}
 ,
 									"rnbo_serial" : 2,
@@ -1263,10 +1263,10 @@
 									"patching_rect" : [ 448.0, 205.0, 50.0, 23.0 ],
 									"rnbo_classname" : "number",
 									"rnbo_extra_attributes" : 									{
-										"maximum" : "<none>",
 										"minimum" : "<none>",
-										"initialFormat" : "integer",
+										"maximum" : "<none>",
 										"order" : "",
+										"initialFormat" : "integer",
 										"preset" : 0
 									}
 ,
@@ -1405,18 +1405,18 @@
 									"patching_rect" : [ 599.0, 484.0, 319.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"fromnormalized" : "",
-										"sendinit" : 1,
+										"unit" : "",
 										"ctlin" : 0.0,
-										"meta" : "",
+										"displayname" : "",
 										"displayorder" : "-",
+										"order" : "0",
+										"sendinit" : 1,
 										"exponent" : 1.0,
 										"tonormalized" : "",
-										"unit" : "",
-										"order" : "0",
-										"enum" : "",
-										"displayname" : "",
-										"preset" : 1
+										"meta" : "",
+										"fromnormalized" : "",
+										"preset" : 1,
+										"enum" : ""
 									}
 ,
 									"rnbo_serial" : 3,
@@ -1822,18 +1822,18 @@
 									"patching_rect" : [ 502.0, 445.0, 338.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"fromnormalized" : "",
-										"sendinit" : 1,
+										"unit" : "",
 										"ctlin" : 0.0,
-										"meta" : "",
+										"displayname" : "",
 										"displayorder" : "-",
+										"order" : "0",
+										"sendinit" : 1,
 										"exponent" : 1.0,
 										"tonormalized" : "",
-										"unit" : "",
-										"order" : "0",
-										"enum" : "",
-										"displayname" : "",
-										"preset" : 1
+										"meta" : "",
+										"fromnormalized" : "",
+										"preset" : 1,
+										"enum" : ""
 									}
 ,
 									"rnbo_serial" : 4,
@@ -2542,10 +2542,10 @@
 									"patching_rect" : [ 339.0, 373.0, 50.0, 23.0 ],
 									"rnbo_classname" : "number",
 									"rnbo_extra_attributes" : 									{
-										"maximum" : "<none>",
 										"minimum" : "<none>",
-										"initialFormat" : "integer",
+										"maximum" : "<none>",
 										"order" : "",
+										"initialFormat" : "integer",
 										"preset" : 0
 									}
 ,
@@ -2840,10 +2840,10 @@
 									"patching_rect" : [ 405.0, 373.0, 50.0, 23.0 ],
 									"rnbo_classname" : "number",
 									"rnbo_extra_attributes" : 									{
-										"maximum" : "<none>",
 										"minimum" : "<none>",
-										"initialFormat" : "integer",
+										"maximum" : "<none>",
 										"order" : "",
+										"initialFormat" : "integer",
 										"preset" : 0
 									}
 ,
@@ -3141,23 +3141,23 @@
 									"patching_rect" : [ 521.0, 217.0, 250.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"fromnormalized" : "",
-										"steps" : 0.0,
-										"sendinit" : 1,
+										"unit" : "",
 										"ctlin" : 0.0,
-										"meta" : "",
+										"displayname" : "",
 										"minimum" : 0.0,
 										"displayorder" : "-",
-										"maximum" : 1.0,
+										"order" : "0",
+										"sendinit" : 1,
 										"exponent" : 1.0,
 										"tonormalized" : "",
-										"unit" : "",
-										"order" : "0",
-										"displayname" : "",
-										"preset" : 1
+										"meta" : "",
+										"fromnormalized" : "",
+										"preset" : 1,
+										"maximum" : 1.0,
+										"steps" : 0.0
 									}
 ,
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "Transpose",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -3580,20 +3580,20 @@
 									"patching_rect" : [ 450.0, 85.0, 147.333337724208832, 66.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"fromnormalized" : "",
-										"steps" : 0.0,
-										"sendinit" : 1,
+										"unit" : "",
 										"ctlin" : 0.0,
-										"meta" : "",
+										"displayname" : "",
 										"minimum" : 0.0,
 										"displayorder" : "-",
-										"maximum" : 1.0,
+										"order" : "0",
+										"sendinit" : 1,
 										"exponent" : 1.0,
 										"tonormalized" : "",
-										"unit" : "",
-										"order" : "0",
-										"displayname" : "",
-										"preset" : 1
+										"meta" : "",
+										"fromnormalized" : "",
+										"preset" : 1,
+										"maximum" : 1.0,
+										"steps" : 0.0
 									}
 ,
 									"rnbo_serial" : 6,
@@ -4271,8 +4271,8 @@
 													"patching_rect" : [ 49.999999704139711, 39.999999114582067, 35.0, 23.0 ],
 													"rnbo_classname" : "in~",
 													"rnbo_extra_attributes" : 													{
-														"comment" : "",
-														"meta" : ""
+														"meta" : "",
+														"comment" : ""
 													}
 ,
 													"rnbo_serial" : 1,
@@ -4367,8 +4367,8 @@
 													"patching_rect" : [ 146.0, 26.0, 28.0, 23.0 ],
 													"rnbo_classname" : "in",
 													"rnbo_extra_attributes" : 													{
-														"comment" : "",
-														"meta" : ""
+														"meta" : "",
+														"comment" : ""
 													}
 ,
 													"rnbo_serial" : 1,
@@ -4449,8 +4449,8 @@
 													"patching_rect" : [ 49.999999704139711, 305.000014114582086, 43.0, 23.0 ],
 													"rnbo_classname" : "out~",
 													"rnbo_extra_attributes" : 													{
-														"comment" : "",
-														"meta" : ""
+														"meta" : "",
+														"comment" : ""
 													}
 ,
 													"rnbo_serial" : 1,
@@ -4545,8 +4545,8 @@
 													"patching_rect" : [ 174.000003704139715, 305.000014114582086, 43.0, 23.0 ],
 													"rnbo_classname" : "out~",
 													"rnbo_extra_attributes" : 													{
-														"comment" : "",
-														"meta" : ""
+														"meta" : "",
+														"comment" : ""
 													}
 ,
 													"rnbo_serial" : 2,
@@ -4703,11 +4703,11 @@
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
 										"polyphony" : -1.0,
-										"receivemode" : "local",
 										"args" : [  ],
+										"receivemode" : "local",
+										"notecontroller" : 0,
 										"exposevoiceparams" : 0,
-										"voicecontrol" : "simple",
-										"notecontroller" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 1,
@@ -4988,18 +4988,18 @@
 									"patching_rect" : [ 448.0, 616.0, 289.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"fromnormalized" : "",
-										"steps" : 0.0,
-										"sendinit" : 1,
 										"ctlin" : 0.0,
-										"meta" : "",
+										"displayname" : "",
 										"displayorder" : "-",
+										"order" : "0",
+										"sendinit" : 1,
 										"exponent" : 1.0,
 										"tonormalized" : "",
-										"order" : "0",
-										"enum" : "",
-										"displayname" : "",
-										"preset" : 1
+										"meta" : "",
+										"fromnormalized" : "",
+										"preset" : 1,
+										"steps" : 0.0,
+										"enum" : ""
 									}
 ,
 									"rnbo_serial" : 7,
@@ -5404,8 +5404,8 @@
 									"patching_rect" : [ 451.5, 714.0, 43.0, 23.0 ],
 									"rnbo_classname" : "out~",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -5500,8 +5500,8 @@
 									"patching_rect" : [ 272.0, 714.0, 43.0, 23.0 ],
 									"rnbo_classname" : "out~",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 2,
@@ -5715,6 +5715,10 @@
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 219.5, 251.0, 38.5, 23.0 ],
 													"rnbo_classname" : "t",
+													"rnbo_extra_attributes" : 													{
+														"triggers" : ""
+													}
+,
 													"rnbo_serial" : 1,
 													"rnbo_uniqueid" : "t_obj-13",
 													"rnboinfo" : 													{
@@ -6064,8 +6068,8 @@
 													"patching_rect" : [ 205.0, 900.0, 43.0, 23.0 ],
 													"rnbo_classname" : "out~",
 													"rnbo_extra_attributes" : 													{
-														"comment" : "",
-														"meta" : ""
+														"meta" : "",
+														"comment" : ""
 													}
 ,
 													"rnbo_serial" : 1,
@@ -6236,8 +6240,8 @@
 													"patching_rect" : [ 125.5, 900.0, 43.0, 23.0 ],
 													"rnbo_classname" : "out~",
 													"rnbo_extra_attributes" : 													{
-														"comment" : "",
-														"meta" : ""
+														"meta" : "",
+														"comment" : ""
 													}
 ,
 													"rnbo_serial" : 2,
@@ -6460,18 +6464,18 @@
 																	"patching_rect" : [ 229.0, 217.0, 342.0, 23.0 ],
 																	"rnbo_classname" : "param",
 																	"rnbo_extra_attributes" : 																	{
-																		"fromnormalized" : "",
-																		"steps" : 0.0,
-																		"sendinit" : 1,
-																		"ctlin" : 0.0,
-																		"meta" : "",
-																		"displayorder" : "-",
-																		"tonormalized" : "",
 																		"unit" : "",
-																		"order" : "0",
-																		"enum" : "",
+																		"ctlin" : 0.0,
 																		"displayname" : "",
-																		"preset" : 1
+																		"displayorder" : "-",
+																		"order" : "0",
+																		"sendinit" : 1,
+																		"tonormalized" : "",
+																		"meta" : "",
+																		"fromnormalized" : "",
+																		"preset" : 1,
+																		"steps" : 0.0,
+																		"enum" : ""
 																	}
 ,
 																	"rnbo_serial" : 1,
@@ -6877,18 +6881,18 @@
 																	"patching_rect" : [ 193.199999999999989, 178.0, 302.0, 23.0 ],
 																	"rnbo_classname" : "param",
 																	"rnbo_extra_attributes" : 																	{
-																		"fromnormalized" : "",
-																		"steps" : 0.0,
-																		"sendinit" : 1,
-																		"ctlin" : 0.0,
-																		"meta" : "",
-																		"displayorder" : "-",
-																		"tonormalized" : "",
 																		"unit" : "",
-																		"order" : "0",
-																		"enum" : "",
+																		"ctlin" : 0.0,
 																		"displayname" : "",
-																		"preset" : 1
+																		"displayorder" : "-",
+																		"order" : "0",
+																		"sendinit" : 1,
+																		"tonormalized" : "",
+																		"meta" : "",
+																		"fromnormalized" : "",
+																		"preset" : 1,
+																		"steps" : 0.0,
+																		"enum" : ""
 																	}
 ,
 																	"rnbo_serial" : 2,
@@ -7295,18 +7299,18 @@
 																	"patching_rect" : [ 157.399999999999977, 139.0, 186.0, 37.0 ],
 																	"rnbo_classname" : "param",
 																	"rnbo_extra_attributes" : 																	{
-																		"fromnormalized" : "",
-																		"steps" : 0.0,
-																		"sendinit" : 1,
-																		"ctlin" : 0.0,
-																		"meta" : "",
-																		"displayorder" : "-",
-																		"tonormalized" : "",
 																		"unit" : "",
-																		"order" : "0",
-																		"enum" : "",
+																		"ctlin" : 0.0,
 																		"displayname" : "",
-																		"preset" : 1
+																		"displayorder" : "-",
+																		"order" : "0",
+																		"sendinit" : 1,
+																		"tonormalized" : "",
+																		"meta" : "",
+																		"fromnormalized" : "",
+																		"preset" : 1,
+																		"steps" : 0.0,
+																		"enum" : ""
 																	}
 ,
 																	"rnbo_serial" : 3,
@@ -7712,18 +7716,18 @@
 																	"patching_rect" : [ 121.600000000000023, 100.0, 316.0, 23.0 ],
 																	"rnbo_classname" : "param",
 																	"rnbo_extra_attributes" : 																	{
-																		"fromnormalized" : "",
-																		"steps" : 0.0,
-																		"sendinit" : 1,
-																		"ctlin" : 0.0,
-																		"meta" : "",
-																		"displayorder" : "-",
-																		"tonormalized" : "",
 																		"unit" : "",
-																		"order" : "0",
-																		"enum" : "",
+																		"ctlin" : 0.0,
 																		"displayname" : "",
-																		"preset" : 1
+																		"displayorder" : "-",
+																		"order" : "0",
+																		"sendinit" : 1,
+																		"tonormalized" : "",
+																		"meta" : "",
+																		"fromnormalized" : "",
+																		"preset" : 1,
+																		"steps" : 0.0,
+																		"enum" : ""
 																	}
 ,
 																	"rnbo_serial" : 4,
@@ -8165,11 +8169,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 2 @comment trigger",
+																						"outlettype" : [ "" ],
 																						"id" : "obj-3",
 																						"numinlets" : 0,
-																						"numoutlets" : 1,
 																						"patching_rect" : [ 215.55999755859375, 62.0, 133.0, 22.0 ],
-																						"outlettype" : [ "" ]
+																						"numoutlets" : 1
 																					}
 
 																				}
@@ -8177,11 +8181,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 6 @min 0.1 @default 150. @comment release",
+																						"outlettype" : [ "" ],
 																						"id" : "obj-9",
 																						"numinlets" : 0,
-																						"numoutlets" : 1,
 																						"patching_rect" : [ 985.79998779296875, 56.0, 271.0, 22.0 ],
-																						"outlettype" : [ "" ]
+																						"numoutlets" : 1
 																					}
 
 																				}
@@ -8189,11 +8193,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 5 @min 0. @max 1. @default 0.5 @comment sustain",
+																						"outlettype" : [ "" ],
 																						"id" : "obj-8",
 																						"numinlets" : 0,
-																						"numoutlets" : 1,
 																						"patching_rect" : [ 793.239990234375, 24.0, 307.0, 22.0 ],
-																						"outlettype" : [ "" ]
+																						"numoutlets" : 1
 																					}
 
 																				}
@@ -8201,25 +8205,25 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 4 @min 0.1 @default 100. @comment decay",
+																						"outlettype" : [ "" ],
 																						"id" : "obj-7",
 																						"numinlets" : 0,
-																						"numoutlets" : 1,
 																						"patching_rect" : [ 600.67999267578125, 56.0, 263.0, 22.0 ],
-																						"outlettype" : [ "" ]
+																						"numoutlets" : 1
 																					}
 
 																				}
 , 																				{
 																					"box" : 																					{
 																						"maxclass" : "codebox",
-																						"fontsize" : 12.0,
+																						"outlettype" : [ "" ],
 																						"id" : "obj-5",
+																						"fontsize" : 12.0,
 																						"numinlets" : 6,
 																						"fontname" : "<Monospaced>",
-																						"numoutlets" : 1,
 																						"patching_rect" : [ 23.000000000000227, 100.5, 981.799987792968523, 617.5 ],
+																						"numoutlets" : 1,
 																						"fontface" : 0,
-																						"outlettype" : [ "" ],
 																						"code" : "// Peter McCulloch Analog-style ADSR Envelope (2015)\r\n// https://cycling74.com/forums/analog-style-adsr-envelopes\r\n// RC-style (convex up, concave down)\r\n\r\n// Renamed variables and refinements for readability and RNBO comaptability by JAS and CPE (2018)\r\n// Added from Ableton Learning Synths synth to RNBO Synth Building Blocks\r\n\r\nHistory attack_has_ended(0);\r\nHistory sustain(0.5);\r\nParam attack_lockout(0); \t// If attack_lockout is on, the attack segment MUST complete \r\n\t\t\t\t\t\t\t// before the release or decay can be triggered\r\n\r\n/*  Constants\r\n *  ============================================================================================= \r\n *  Each iteration of the slide will take us ~63% of the remaining distance. \r\n *  To avoid asymptotically approaching our target value (which would make the timing values feel wrong)\r\n *  we aim for a value above (rising) or below (falling) our target and then clip the results.\r\n *\r\n *  After 3 iterations of the RC accumulator, the accumulator will be ~95% of the way there.  \r\n *  By deliberately overshooting our target value by the inverse of this value, we get there right on time.  \r\n *  (The bottom part of the fraction is the ~95% part)  \r\n *\r\n *  It is important that this constant be precise\r\n *  because it will effect the timing precision of the envelope considerably! (i.e. errors compound)\r\n */\r\n\r\n// Is gen/rnbo smart enough to not compute the constants every frame? If not, we could compute at event rate and pass in as parameters.\r\niter = 1 - (1 / e);   \t\t\t\t\t\t\t\t\t\t\t\t// 0.63212055882856  \r\n\r\n// The fractional term is the remaining distance for each iteration (1 the first time, 1/e the second...)\r\nhigh_target = 1. / (iter * (1 / 1) + iter * (1 / e) + iter * (1 / (e * e)));  \t\t// Going up... (~1.05)\r\nlow_target = 1. - high_target;                            \t\t\t                // Going down... (~-0.05)\r\n\r\ntrigger = (delta(in2 > 0) > 0);\r\n\r\nis_released = in1 == 0;\r\n\r\n// If triggered, or attack hasn't ended and gate still active or in lockout mode\r\nis_attacking = (trigger || !attack_has_ended) && (!is_released || attack_lockout);\r\n\r\nattack_iter_interval = mstosamps(in3) * 0.33333333333333;\r\nrelease_iter_interval = mstosamps(in6) * 0.33333333333333;\r\ndecay_iter_interval = mstosamps(in4) * 0.33333333333333;\r\n\r\n// decay time uses release time if release has been triggered\r\ndecay_iter_interval = ( !is_released * decay_iter_interval ) + ( is_released * release_iter_interval );\r\n\r\n// smooth sustain input with recursive logarithmic filter\r\nsustain_smoothing = 1 - (1 / mstosamps(20.));\r\nsustain = mix(in5, sustain, sustain_smoothing);\r\n\r\nad_target = is_attacking > 0 ? high_target : low_target;\r\nasr_target = !is_released || is_attacking ? high_target : low_target;\r\n\r\n// Clamp so that on overshoot values hit min/max\r\n// due to a rnbo bug, if first argument of clamp is given as an inline call to slide(), envelope times end up being short\r\nad = slide(ad_target, attack_iter_interval, decay_iter_interval); \r\nad = clamp(ad,0.,1.);\r\nasr = slide(asr_target, attack_iter_interval, release_iter_interval);\r\nasr = clamp(asr,0.,1.); \r\n\r\nattack_has_ended = !is_attacking || (ad >= 1.);\r\n\r\nout1 = mix(ad,asr,sustain); // blend the two envelopes based on the sustain value"
 																					}
 
@@ -8228,11 +8232,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 1 @comment gate",
+																						"outlettype" : [ "" ],
 																						"id" : "obj-1",
 																						"numinlets" : 0,
-																						"numoutlets" : 1,
 																						"patching_rect" : [ 23.0, 24.0, 132.0, 22.0 ],
-																						"outlettype" : [ "" ]
+																						"numoutlets" : 1
 																					}
 
 																				}
@@ -8240,11 +8244,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 3 @min 0.1 @default 1. @comment attack",
+																						"outlettype" : [ "" ],
 																						"id" : "obj-2",
 																						"numinlets" : 0,
-																						"numoutlets" : 1,
 																						"patching_rect" : [ 408.1199951171875, 24.0, 250.0, 22.0 ],
-																						"outlettype" : [ "" ]
+																						"numoutlets" : 1
 																					}
 
 																				}
@@ -8254,44 +8258,16 @@
 																						"text" : "out 1",
 																						"id" : "obj-4",
 																						"numinlets" : 1,
-																						"numoutlets" : 0,
-																						"patching_rect" : [ 23.0, 742.0, 37.0, 22.0 ]
+																						"patching_rect" : [ 23.0, 742.0, 37.0, 22.0 ],
+																						"numoutlets" : 0
 																					}
 
 																				}
  ],
 																			"lines" : [ 																				{
 																					"patchline" : 																					{
-																						"source" : [ "obj-1", 0 ],
-																						"destination" : [ "obj-5", 0 ]
-																					}
-
-																				}
-, 																				{
-																					"patchline" : 																					{
-																						"source" : [ "obj-2", 0 ],
-																						"destination" : [ "obj-5", 2 ]
-																					}
-
-																				}
-, 																				{
-																					"patchline" : 																					{
-																						"source" : [ "obj-3", 0 ],
-																						"destination" : [ "obj-5", 1 ]
-																					}
-
-																				}
-, 																				{
-																					"patchline" : 																					{
-																						"source" : [ "obj-5", 0 ],
-																						"destination" : [ "obj-4", 0 ]
-																					}
-
-																				}
-, 																				{
-																					"patchline" : 																					{
-																						"source" : [ "obj-7", 0 ],
-																						"destination" : [ "obj-5", 3 ]
+																						"source" : [ "obj-9", 0 ],
+																						"destination" : [ "obj-5", 5 ]
 																					}
 
 																				}
@@ -8304,8 +8280,36 @@
 																				}
 , 																				{
 																					"patchline" : 																					{
-																						"source" : [ "obj-9", 0 ],
-																						"destination" : [ "obj-5", 5 ]
+																						"source" : [ "obj-7", 0 ],
+																						"destination" : [ "obj-5", 3 ]
+																					}
+
+																				}
+, 																				{
+																					"patchline" : 																					{
+																						"source" : [ "obj-5", 0 ],
+																						"destination" : [ "obj-4", 0 ]
+																					}
+
+																				}
+, 																				{
+																					"patchline" : 																					{
+																						"source" : [ "obj-3", 0 ],
+																						"destination" : [ "obj-5", 1 ]
+																					}
+
+																				}
+, 																				{
+																					"patchline" : 																					{
+																						"source" : [ "obj-2", 0 ],
+																						"destination" : [ "obj-5", 2 ]
+																					}
+
+																				}
+, 																				{
+																					"patchline" : 																					{
+																						"source" : [ "obj-1", 0 ],
+																						"destination" : [ "obj-5", 0 ]
 																					}
 
 																				}
@@ -8605,8 +8609,8 @@
 																	"patching_rect" : [ 44.0, 40.0, 35.0, 23.0 ],
 																	"rnbo_classname" : "in~",
 																	"rnbo_extra_attributes" : 																	{
-																		"comment" : "",
-																		"meta" : ""
+																		"meta" : "",
+																		"comment" : ""
 																	}
 ,
 																	"rnbo_serial" : 1,
@@ -8700,8 +8704,8 @@
 																	"patching_rect" : [ 50.0, 343.0, 43.0, 23.0 ],
 																	"rnbo_classname" : "out~",
 																	"rnbo_extra_attributes" : 																	{
-																		"comment" : "",
-																		"meta" : ""
+																		"meta" : "",
+																		"comment" : ""
 																	}
 ,
 																	"rnbo_serial" : 1,
@@ -8858,11 +8862,11 @@
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
 														"polyphony" : -1.0,
-														"receivemode" : "local",
 														"args" : [  ],
+														"receivemode" : "local",
+														"notecontroller" : 0,
 														"exposevoiceparams" : 1,
-														"voicecontrol" : "simple",
-														"notecontroller" : 0
+														"voicecontrol" : "simple"
 													}
 ,
 													"rnbo_serial" : 1,
@@ -9328,8 +9332,8 @@
 																	"patching_rect" : [ 376.0, 767.0, 36.0, 23.0 ],
 																	"rnbo_classname" : "out",
 																	"rnbo_extra_attributes" : 																	{
-																		"comment" : "",
-																		"meta" : ""
+																		"meta" : "",
+																		"comment" : ""
 																	}
 ,
 																	"rnbo_serial" : 1,
@@ -9411,8 +9415,8 @@
 																	"patching_rect" : [ 80.5, 763.0, 36.0, 23.0 ],
 																	"rnbo_classname" : "out",
 																	"rnbo_extra_attributes" : 																	{
-																		"comment" : "",
-																		"meta" : ""
+																		"meta" : "",
+																		"comment" : ""
 																	}
 ,
 																	"rnbo_serial" : 2,
@@ -9668,10 +9672,10 @@
 																	"patching_rect" : [ 78.0, 658.0, 50.0, 23.0 ],
 																	"rnbo_classname" : "number",
 																	"rnbo_extra_attributes" : 																	{
-																		"maximum" : "<none>",
 																		"minimum" : "<none>",
-																		"initialFormat" : "integer",
+																		"maximum" : "<none>",
 																		"order" : "",
+																		"initialFormat" : "integer",
 																		"preset" : 0
 																	}
 ,
@@ -9846,10 +9850,10 @@
 																	"patching_rect" : [ 85.000013589859009, 100.0, 50.0, 23.0 ],
 																	"rnbo_classname" : "number",
 																	"rnbo_extra_attributes" : 																	{
-																		"maximum" : "<none>",
 																		"minimum" : "<none>",
-																		"initialFormat" : "integer",
+																		"maximum" : "<none>",
 																		"order" : "",
+																		"initialFormat" : "integer",
 																		"preset" : 0
 																	}
 ,
@@ -9883,8 +9887,8 @@
 																	"patching_rect" : [ 80.5, 710.0, 191.0, 23.0 ],
 																	"rnbo_classname" : "expr",
 																	"rnbo_extra_attributes" : 																	{
-																		"safemath" : 1,
-																		"hot" : 0
+																		"hot" : 0,
+																		"safemath" : 1
 																	}
 ,
 																	"rnbo_serial" : 1,
@@ -10008,8 +10012,8 @@
 																	"patching_rect" : [ 85.0, 40.000000432926186, 28.0, 23.0 ],
 																	"rnbo_classname" : "in",
 																	"rnbo_extra_attributes" : 																	{
-																		"comment" : "",
-																		"meta" : ""
+																		"meta" : "",
+																		"comment" : ""
 																	}
 ,
 																	"rnbo_serial" : 1,
@@ -10444,11 +10448,11 @@
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
 														"polyphony" : -1.0,
-														"receivemode" : "local",
 														"args" : [  ],
+														"receivemode" : "local",
+														"notecontroller" : 0,
 														"exposevoiceparams" : 0,
-														"voicecontrol" : "simple",
-														"notecontroller" : 0
+														"voicecontrol" : "simple"
 													}
 ,
 													"rnbo_serial" : 2,
@@ -10999,11 +11003,11 @@
 									"patching_rect" : [ 272.0, 607.0, 147.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
-										"receivemode" : "local",
 										"args" : [  ],
+										"receivemode" : "local",
+										"notecontroller" : 0,
 										"exposevoiceparams" : 0,
-										"voicecontrol" : "simple",
-										"notecontroller" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 2,
@@ -11334,7 +11338,7 @@
 										}
 ,
 										"classnamespace" : "rnbo",
-										"rect" : [ 176.0, 219.0, 961.0, 649.0 ],
+										"rect" : [ 176.0, 219.0, 1590.0, 831.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -11370,7 +11374,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 743.0, 25.0, 115.0, 150.0 ],
+													"patching_rect" : [ 349.5, 48.5, 115.0, 150.0 ],
 													"text" : "Bb2\nDb3\nE3\nG3\nBb3\nDb4\nE4\nG4\nBb4\nDb5"
 												}
 
@@ -11382,15 +11386,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 287.343359375000034, 694.0, 23.0 ],
+													"patching_rect" : [ 40.0, 287.343359375000034, 203.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 1,
+													"rnbo_serial" : 21,
 													"rnbo_uniqueid" : "buffer~_obj-2",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -11671,7 +11675,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ bufferten @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh Db5.aif\""
+													"text" : "buffer~ bufferten @file \"ahh Db5.aif\""
 												}
 
 											}
@@ -11682,15 +11686,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 256.971875000000011, 698.0, 23.0 ],
+													"patching_rect" : [ 40.0, 256.971875000000011, 207.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 2,
+													"rnbo_serial" : 20,
 													"rnbo_uniqueid" : "buffer~_obj-3",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -11971,7 +11975,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ buffernine @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh Bb4.aif\""
+													"text" : "buffer~ buffernine @file \"ahh Bb4.aif\""
 												}
 
 											}
@@ -11982,15 +11986,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 226.600390624999989, 696.0, 23.0 ],
+													"patching_rect" : [ 40.0, 226.600390624999989, 205.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 3,
+													"rnbo_serial" : 19,
 													"rnbo_uniqueid" : "buffer~_obj-6",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -12271,7 +12275,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ buffereight @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh G4.aif\""
+													"text" : "buffer~ buffereight @file \"ahh G4.aif\""
 												}
 
 											}
@@ -12282,15 +12286,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 196.228906249999994, 698.0, 23.0 ],
+													"patching_rect" : [ 40.0, 196.228906249999994, 207.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 4,
+													"rnbo_serial" : 18,
 													"rnbo_uniqueid" : "buffer~_obj-7",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -12571,7 +12575,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ bufferseven @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh E4.aif\""
+													"text" : "buffer~ bufferseven @file \"ahh E4.aif\""
 												}
 
 											}
@@ -12582,15 +12586,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 165.857421875, 691.0, 23.0 ],
+													"patching_rect" : [ 40.0, 165.857421875, 199.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 5,
+													"rnbo_serial" : 17,
 													"rnbo_uniqueid" : "buffer~_obj-8",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -12871,7 +12875,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ buffersix @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh Db4.aif\""
+													"text" : "buffer~ buffersix @file \"ahh Db4.aif\""
 												}
 
 											}
@@ -12882,15 +12886,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 135.485937500000006, 695.0, 23.0 ],
+													"patching_rect" : [ 40.0, 135.485937500000006, 203.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 6,
+													"rnbo_serial" : 16,
 													"rnbo_uniqueid" : "buffer~_obj-20",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -13171,7 +13175,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ bufferfive @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh Bb3.aif\""
+													"text" : "buffer~ bufferfive @file \"ahh Bb3.aif\""
 												}
 
 											}
@@ -13182,15 +13186,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 105.114453125000011, 691.0, 23.0 ],
+													"patching_rect" : [ 40.0, 105.114453125000011, 200.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 7,
+													"rnbo_serial" : 15,
 													"rnbo_uniqueid" : "buffer~_obj-19",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -13471,7 +13475,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ bufferfour @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh G3.aif\""
+													"text" : "buffer~ bufferfour @file \"ahh G3.aif\""
 												}
 
 											}
@@ -13482,15 +13486,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 74.742968750000003, 696.0, 23.0 ],
+													"patching_rect" : [ 40.0, 74.742968750000003, 204.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 8,
+													"rnbo_serial" : 14,
 													"rnbo_uniqueid" : "buffer~_obj-4",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -13771,7 +13775,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ bufferthree @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh E3.aif\""
+													"text" : "buffer~ bufferthree @file \"ahh E3.aif\""
 												}
 
 											}
@@ -13782,15 +13786,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 44.371484375000001, 697.0, 23.0 ],
+													"patching_rect" : [ 40.0, 44.371484375000001, 206.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 9,
+													"rnbo_serial" : 12,
 													"rnbo_uniqueid" : "buffer~_obj-5",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -14071,7 +14075,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ buffertwo @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh Db3.aif\""
+													"text" : "buffer~ buffertwo @file \"ahh Db3.aif\""
 												}
 
 											}
@@ -14082,15 +14086,15 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 40.0, 14.0, 695.0, 23.0 ],
+													"patching_rect" : [ 40.0, 14.0, 204.0, 23.0 ],
 													"rnbo_classname" : "buffer~",
 													"rnbo_extra_attributes" : 													{
 														"samplerate" : 0.0,
-														"fill" : "",
-														"type" : ""
+														"type" : "",
+														"fill" : ""
 													}
 ,
-													"rnbo_serial" : 10,
+													"rnbo_serial" : 13,
 													"rnbo_uniqueid" : "buffer~_obj-1",
 													"rnboinfo" : 													{
 														"needsInstanceInfo" : 1,
@@ -14371,7 +14375,7 @@
 														"changesPatcherIO" : 0
 													}
 ,
-													"text" : "buffer~ bufferone @file \"Macintosh HD:/Users/mdavidson/Downloads/Downloads from previous laptop/ExaSamples/ahh Bb2.aif\""
+													"text" : "buffer~ bufferone @file \"ahh Bb2.aif\""
 												}
 
 											}
@@ -14406,11 +14410,11 @@
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
 										"polyphony" : -1.0,
-										"receivemode" : "local",
 										"args" : [  ],
+										"receivemode" : "local",
+										"notecontroller" : 0,
 										"exposevoiceparams" : 0,
-										"voicecontrol" : "MIDI",
-										"notecontroller" : 0
+										"voicecontrol" : "MIDI"
 									}
 ,
 									"rnbo_serial" : 3,
@@ -14895,32 +14899,20 @@
 ,
 					"patching_rect" : [ 340.0, 404.0, 208.0, 22.0 ],
 					"rnboattrcache" : 					{
+						"VoiceAhh/AmpEnv/attack" : 						{
+							"label" : "attack",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"Volume" : 						{
 							"label" : "Volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"VoiceAhh/AmpEnv/release" : 						{
-							"label" : "release",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"BendRangeLow" : 						{
-							"label" : "BendRangeLow",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"VoiceAhh/AmpEnv/sustain" : 						{
 							"label" : "sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"AftertouchSlideDownTime" : 						{
-							"label" : "AftertouchSlideDownTime",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -14937,14 +14929,26 @@
 							"parsestring" : ""
 						}
 ,
-						"VoiceAhh/AmpEnv/attack" : 						{
-							"label" : "attack",
+						"AftertouchSlideUpTime" : 						{
+							"label" : "AftertouchSlideUpTime",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"AftertouchSlideUpTime" : 						{
-							"label" : "AftertouchSlideUpTime",
+						"AftertouchSlideDownTime" : 						{
+							"label" : "AftertouchSlideDownTime",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"VoiceAhh/AmpEnv/release" : 						{
+							"label" : "release",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"BendRangeLow" : 						{
+							"label" : "BendRangeLow",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -15733,78 +15737,78 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ahh Bb2.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh Bb3.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh Bb4.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh Db3.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh Db4.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh Db5.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh E3.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh E4.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh G3.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ahh G4.aif",
-				"bootpath" : "~/Downloads/Downloads from previous laptop/ExaSamples",
-				"patcherrelativepath" : "../../Downloads/Downloads from previous laptop/ExaSamples",
+				"bootpath" : "~/Documents/Max 8/Packages/Rainbox/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matthewahh_20240324_2.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
