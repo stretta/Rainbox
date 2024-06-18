@@ -505,19 +505,19 @@
 									"patching_rect" : [ 190.0, 66.0, 227.0, 37.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
+										"order" : "0",
 										"meta" : "",
+										"steps" : 0.0,
 										"tonormalized" : "",
-										"exponent" : 1.0,
 										"preset" : 1,
 										"displayorder" : "-",
-										"displayname" : "",
-										"enum" : "",
 										"ctlin" : 0.0,
-										"unit" : "",
-										"fromnormalized" : "",
 										"sendinit" : 1,
-										"order" : "0",
-										"steps" : 0.0
+										"enum" : "",
+										"displayname" : "",
+										"fromnormalized" : "",
+										"exponent" : 1.0,
+										"unit" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -1090,7 +1090,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 106.0, 235.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "*~_obj-4",
 									"text" : "*~"
 								}
@@ -1166,7 +1166,7 @@
 
 					}
 ,
-					"rnboversion" : "1.3.0",
+					"rnboversion" : "1.3.2-alpha.1",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -1336,7 +1336,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "untitled_20240320.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
