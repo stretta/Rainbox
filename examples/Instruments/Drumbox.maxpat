@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "Volume",
+					"id" : "obj-5",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 376.0, 771.0, 295.5, 22.0 ],
+					"text_width" : 215.0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1168,7 +1182,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 173.5, 515.0, 252.0, 21.0 ],
-									"presentation_linecount" : 2,
 									"text" : "script newdefault $1 425 65 buffer~ $1 @file $1"
 								}
 
@@ -2738,6 +2751,473 @@
 						"title" : "Drumbox",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-122",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 141.0, 719.0, 31.0, 23.0 ],
+									"rnbo_classname" : "*~",
+									"rnbo_serial" : 2,
+									"rnbo_uniqueid" : "*~_obj-122",
+									"text" : "*~ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-119",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 57.0, 719.0, 31.0, 23.0 ],
+									"rnbo_classname" : "*~",
+									"rnbo_serial" : 1,
+									"rnbo_uniqueid" : "*~_obj-119",
+									"text" : "*~ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-118",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 291.5, 692.0, 39.0, 23.0 ],
+									"rnbo_classname" : "dbtoa",
+									"rnbo_extra_attributes" : 									{
+										"hot" : 0
+									}
+,
+									"rnbo_serial" : 1,
+									"rnbo_uniqueid" : "dbtoa_obj-118",
+									"text" : "dbtoa"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-115",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 283.0, 629.0, 238.0, 23.0 ],
+									"rnbo_classname" : "param",
+									"rnbo_extra_attributes" : 									{
+										"displayorder" : "-",
+										"steps" : 0.0,
+										"displayname" : "",
+										"meta" : "",
+										"sendinit" : 1,
+										"fromnormalized" : "",
+										"unit" : "",
+										"tonormalized" : "",
+										"exponent" : 1.0,
+										"order" : "0",
+										"preset" : 1,
+										"enum" : "",
+										"ctlin" : 0.0
+									}
+,
+									"rnbo_serial" : 1,
+									"rnbo_uniqueid" : "Volume",
+									"rnboinfo" : 									{
+										"needsInstanceInfo" : 1,
+										"argnames" : 										{
+											"value" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Set initial value",
+												"defaultarg" : 2,
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "number",
+												"defaultValue" : "0",
+												"label" : "Initial Value",
+												"displayorder" : 3
+											}
+,
+											"normalizedvalue" : 											{
+												"attrOrProp" : 1,
+												"digest" : "Set value normalized. ",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"inlet" : 1,
+												"type" : "number"
+											}
+,
+											"reset" : 											{
+												"attrOrProp" : 1,
+												"digest" : "Reset param to initial value",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"attachable" : 1,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "bang"
+											}
+,
+											"normalized" : 											{
+												"attrOrProp" : 1,
+												"digest" : "Normalized parameter value.",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"outlet" : 1,
+												"type" : "number"
+											}
+,
+											"name" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Name of the parameter",
+												"defaultarg" : 1,
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "symbol",
+												"label" : "Parameter Name",
+												"mandatory" : 1
+											}
+,
+											"enum" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Use an enumerated output",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "list",
+												"label" : "Enum Values",
+												"displayorder" : 6
+											}
+,
+											"minimum" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Minimum value",
+												"isalias" : 0,
+												"aliases" : [ "min" ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "number",
+												"defaultValue" : "0",
+												"label" : "Minimum",
+												"displayorder" : 1
+											}
+,
+											"min" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Minimum value",
+												"isalias" : 1,
+												"aliasOf" : "minimum",
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "number",
+												"defaultValue" : "0",
+												"label" : "Minimum",
+												"displayorder" : 1
+											}
+,
+											"maximum" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Maximum value",
+												"isalias" : 0,
+												"aliases" : [ "max" ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "number",
+												"defaultValue" : "1",
+												"label" : "Maximum",
+												"displayorder" : 2
+											}
+,
+											"max" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Maximum value",
+												"isalias" : 1,
+												"aliasOf" : "maximum",
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "number",
+												"defaultValue" : "1",
+												"label" : "Maximum",
+												"displayorder" : 2
+											}
+,
+											"exponent" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Scale values exponentially",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "number",
+												"defaultValue" : "1",
+												"label" : "Exponent",
+												"displayorder" : 7
+											}
+,
+											"steps" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Divide the output into a number of discrete steps",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "number",
+												"defaultValue" : "0",
+												"label" : "Steps",
+												"displayorder" : 8
+											}
+,
+											"displayName" : 											{
+												"attrOrProp" : 2,
+												"digest" : "DEPRECATED: Use the lower case 'displayname' instead",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 1,
+												"type" : "symbol",
+												"label" : "Display Name"
+											}
+,
+											"displayname" : 											{
+												"attrOrProp" : 2,
+												"digest" : "A more readable name for the parameter in an external RNBO target",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "symbol",
+												"defaultValue" : "",
+												"label" : "Display Name",
+												"displayorder" : 14
+											}
+,
+											"unit" : 											{
+												"attrOrProp" : 2,
+												"digest" : "A symbol to describe the unit of the parameter in an external RNBO target",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "symbol",
+												"defaultValue" : "",
+												"label" : "Unit",
+												"displayorder" : 15
+											}
+,
+											"tonormalized" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Converts a real parameter value to its normalized form.",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "symbol",
+												"label" : "To Normalized Expression",
+												"displayorder" : 10
+											}
+,
+											"fromnormalized" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Converts a normalized parameter into its actual parameter value.",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "symbol",
+												"label" : "From Normalized Expression",
+												"displayorder" : 9
+											}
+,
+											"order" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Order in which initial parameter values will be sent out on patcher load. The order can be numeric or symbolic ('first' and 'last')",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "symbol",
+												"defaultValue" : "0",
+												"label" : "Restore Order",
+												"displayorder" : 12
+											}
+,
+											"displayorder" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Order in which parameters will show up in a list of all parameters. The order can be numeric or symbolic ('first' and 'last')",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "symbol",
+												"defaultValue" : "-",
+												"label" : "Display Order",
+												"displayorder" : 13
+											}
+,
+											"sendinit" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Send initial value",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "bool",
+												"defaultValue" : "true",
+												"label" : "Send Init",
+												"displayorder" : 4
+											}
+,
+											"ctlin" : 											{
+												"attrOrProp" : 2,
+												"digest" : "MIDI controller number to control this parameter.",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "number",
+												"label" : "MIDI Controller Number.",
+												"displayorder" : 16
+											}
+,
+											"meta" : 											{
+												"attrOrProp" : 2,
+												"digest" : "A JSON formatted string containing metadata for use by the exported code",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "symbol",
+												"defaultValue" : "",
+												"label" : "Metadata",
+												"displayorder" : 17
+											}
+,
+											"nopreset" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Do not add this value to the preset [DEPRECATED - USE @preset 0 instead].",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 1,
+												"type" : "bool",
+												"defaultValue" : "false"
+											}
+,
+											"preset" : 											{
+												"attrOrProp" : 2,
+												"digest" : "Add this value to the preset.",
+												"isalias" : 0,
+												"aliases" : [  ],
+												"settable" : 1,
+												"attachable" : 0,
+												"isparam" : 0,
+												"deprecated" : 0,
+												"type" : "bool",
+												"defaultValue" : "true",
+												"label" : "Include In Preset",
+												"displayorder" : 11
+											}
+
+										}
+,
+										"inputs" : [ 											{
+												"name" : "value",
+												"type" : "number",
+												"digest" : "Parameter value",
+												"hot" : 1,
+												"docked" : 0
+											}
+, 											{
+												"name" : "normalizedvalue",
+												"type" : "number",
+												"digest" : "Set value normalized. ",
+												"docked" : 0
+											}
+ ],
+										"outputs" : [ 											{
+												"name" : "value",
+												"type" : "number",
+												"digest" : "Parameter value",
+												"hot" : 1,
+												"docked" : 0
+											}
+, 											{
+												"name" : "normalized",
+												"type" : "number",
+												"digest" : "Normalized parameter value.",
+												"docked" : 0
+											}
+ ],
+										"helpname" : "param",
+										"aliasOf" : "param",
+										"classname" : "param",
+										"operator" : 0,
+										"versionId" : -1940971094,
+										"changesPatcherIO" : 0
+									}
+,
+									"text" : "param Volume @min -96 @max 0 @value -3",
+									"varname" : "Volume"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -2746,12 +3226,12 @@
 									"patching_rect" : [ 56.100002110004425, 839.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 104,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "str1000.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -3047,12 +3527,12 @@
 									"patching_rect" : [ 56.100002110004425, 862.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 105,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "str1001.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -3348,12 +3828,12 @@
 									"patching_rect" : [ 56.100002110004425, 885.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 106,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "str1002.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -3649,12 +4129,12 @@
 									"patching_rect" : [ 56.100002110004425, 908.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 107,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "str1003.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -3950,12 +4430,12 @@
 									"patching_rect" : [ 56.100002110004425, 931.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 108,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "str1004.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -4251,12 +4731,12 @@
 									"patching_rect" : [ 56.100002110004425, 954.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 109,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "str1005.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -4552,12 +5032,12 @@
 									"patching_rect" : [ 56.100002110004425, 977.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 110,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "str1006.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -4853,12 +5333,12 @@
 									"patching_rect" : [ 56.100002110004425, 1000.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 111,
+									"rnbo_serial" : 8,
 									"rnbo_uniqueid" : "str1007.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -5154,12 +5634,12 @@
 									"patching_rect" : [ 56.100002110004425, 1023.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 112,
+									"rnbo_serial" : 9,
 									"rnbo_uniqueid" : "str1008.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -5455,12 +5935,12 @@
 									"patching_rect" : [ 56.100002110004425, 1046.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 113,
+									"rnbo_serial" : 10,
 									"rnbo_uniqueid" : "str1100.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -5756,12 +6236,12 @@
 									"patching_rect" : [ 56.100002110004425, 1069.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 114,
+									"rnbo_serial" : 11,
 									"rnbo_uniqueid" : "str1101.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -6057,12 +6537,12 @@
 									"patching_rect" : [ 56.100002110004425, 1092.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 115,
+									"rnbo_serial" : 12,
 									"rnbo_uniqueid" : "str1102.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -6358,12 +6838,12 @@
 									"patching_rect" : [ 56.100002110004425, 1115.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 116,
+									"rnbo_serial" : 13,
 									"rnbo_uniqueid" : "str1103.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -6659,12 +7139,12 @@
 									"patching_rect" : [ 56.100002110004425, 1138.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 117,
+									"rnbo_serial" : 14,
 									"rnbo_uniqueid" : "str1104.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -6960,12 +7440,12 @@
 									"patching_rect" : [ 56.100002110004425, 1161.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 118,
+									"rnbo_serial" : 15,
 									"rnbo_uniqueid" : "str1105.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -7261,12 +7741,12 @@
 									"patching_rect" : [ 56.100002110004425, 1184.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 119,
+									"rnbo_serial" : 16,
 									"rnbo_uniqueid" : "str1106.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -7562,12 +8042,12 @@
 									"patching_rect" : [ 56.100002110004425, 1207.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 120,
+									"rnbo_serial" : 17,
 									"rnbo_uniqueid" : "str1107.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -7863,12 +8343,12 @@
 									"patching_rect" : [ 56.100002110004425, 1230.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 121,
+									"rnbo_serial" : 18,
 									"rnbo_uniqueid" : "str1108.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -8164,12 +8644,12 @@
 									"patching_rect" : [ 56.100002110004425, 1253.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 122,
+									"rnbo_serial" : 19,
 									"rnbo_uniqueid" : "str1109.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -8465,12 +8945,12 @@
 									"patching_rect" : [ 56.100002110004425, 1276.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 123,
+									"rnbo_serial" : 20,
 									"rnbo_uniqueid" : "str1110.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -8766,12 +9246,12 @@
 									"patching_rect" : [ 56.100002110004425, 1299.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 124,
+									"rnbo_serial" : 21,
 									"rnbo_uniqueid" : "str1200.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -9067,12 +9547,12 @@
 									"patching_rect" : [ 56.100002110004425, 1322.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 125,
+									"rnbo_serial" : 22,
 									"rnbo_uniqueid" : "str1201.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -9368,12 +9848,12 @@
 									"patching_rect" : [ 56.100002110004425, 1345.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 126,
+									"rnbo_serial" : 23,
 									"rnbo_uniqueid" : "str1202.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -9669,12 +10149,12 @@
 									"patching_rect" : [ 56.100002110004425, 1368.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 127,
+									"rnbo_serial" : 24,
 									"rnbo_uniqueid" : "str1300.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -9970,12 +10450,12 @@
 									"patching_rect" : [ 56.100002110004425, 1391.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 128,
+									"rnbo_serial" : 25,
 									"rnbo_uniqueid" : "str1301.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -10271,12 +10751,12 @@
 									"patching_rect" : [ 56.100002110004425, 1414.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 129,
+									"rnbo_serial" : 26,
 									"rnbo_uniqueid" : "str1302.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -10572,12 +11052,12 @@
 									"patching_rect" : [ 56.100002110004425, 1437.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 130,
+									"rnbo_serial" : 27,
 									"rnbo_uniqueid" : "str1303.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -10873,12 +11353,12 @@
 									"patching_rect" : [ 56.100002110004425, 1460.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 131,
+									"rnbo_serial" : 28,
 									"rnbo_uniqueid" : "str1304.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -11174,12 +11654,12 @@
 									"patching_rect" : [ 56.100002110004425, 1483.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 132,
+									"rnbo_serial" : 29,
 									"rnbo_uniqueid" : "str1400.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -11475,12 +11955,12 @@
 									"patching_rect" : [ 56.100002110004425, 1506.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 133,
+									"rnbo_serial" : 30,
 									"rnbo_uniqueid" : "str1401.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -11776,12 +12256,12 @@
 									"patching_rect" : [ 56.100002110004425, 1529.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 134,
+									"rnbo_serial" : 31,
 									"rnbo_uniqueid" : "str1402.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -12077,12 +12557,12 @@
 									"patching_rect" : [ 56.100002110004425, 1552.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 135,
+									"rnbo_serial" : 32,
 									"rnbo_uniqueid" : "str1403.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -12378,12 +12858,12 @@
 									"patching_rect" : [ 56.100002110004425, 1575.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 136,
+									"rnbo_serial" : 33,
 									"rnbo_uniqueid" : "str1404.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -12679,12 +13159,12 @@
 									"patching_rect" : [ 56.100002110004425, 1598.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 137,
+									"rnbo_serial" : 34,
 									"rnbo_uniqueid" : "str1500.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -12980,12 +13460,12 @@
 									"patching_rect" : [ 56.100002110004425, 1621.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 138,
+									"rnbo_serial" : 35,
 									"rnbo_uniqueid" : "str1501.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -13281,12 +13761,12 @@
 									"patching_rect" : [ 56.100002110004425, 1644.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 139,
+									"rnbo_serial" : 36,
 									"rnbo_uniqueid" : "str1502.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -13582,12 +14062,12 @@
 									"patching_rect" : [ 56.100002110004425, 1667.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 140,
+									"rnbo_serial" : 37,
 									"rnbo_uniqueid" : "str1503.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -13883,12 +14363,12 @@
 									"patching_rect" : [ 56.100002110004425, 1690.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 141,
+									"rnbo_serial" : 38,
 									"rnbo_uniqueid" : "str1504.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -14184,12 +14664,12 @@
 									"patching_rect" : [ 56.100002110004425, 1713.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 142,
+									"rnbo_serial" : 39,
 									"rnbo_uniqueid" : "str1505.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -14485,12 +14965,12 @@
 									"patching_rect" : [ 56.100002110004425, 1736.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 143,
+									"rnbo_serial" : 40,
 									"rnbo_uniqueid" : "str1600.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -14786,12 +15266,12 @@
 									"patching_rect" : [ 56.100002110004425, 1759.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 144,
+									"rnbo_serial" : 41,
 									"rnbo_uniqueid" : "str1601.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -15087,12 +15567,12 @@
 									"patching_rect" : [ 56.100002110004425, 1782.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 145,
+									"rnbo_serial" : 42,
 									"rnbo_uniqueid" : "str1602.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -15388,12 +15868,12 @@
 									"patching_rect" : [ 56.100002110004425, 1805.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 146,
+									"rnbo_serial" : 43,
 									"rnbo_uniqueid" : "str1603.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -15689,12 +16169,12 @@
 									"patching_rect" : [ 56.100002110004425, 1828.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 147,
+									"rnbo_serial" : 44,
 									"rnbo_uniqueid" : "str1604.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -15990,12 +16470,12 @@
 									"patching_rect" : [ 56.100002110004425, 1851.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 148,
+									"rnbo_serial" : 45,
 									"rnbo_uniqueid" : "str1605.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -16291,12 +16771,12 @@
 									"patching_rect" : [ 56.100002110004425, 1874.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 149,
+									"rnbo_serial" : 46,
 									"rnbo_uniqueid" : "str1606.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -16592,12 +17072,12 @@
 									"patching_rect" : [ 56.100002110004425, 1897.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 150,
+									"rnbo_serial" : 47,
 									"rnbo_uniqueid" : "str1607.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -16893,12 +17373,12 @@
 									"patching_rect" : [ 56.100002110004425, 1920.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 151,
+									"rnbo_serial" : 48,
 									"rnbo_uniqueid" : "str1608.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -17194,12 +17674,12 @@
 									"patching_rect" : [ 56.100002110004425, 1943.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 152,
+									"rnbo_serial" : 49,
 									"rnbo_uniqueid" : "str1609.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -17495,12 +17975,12 @@
 									"patching_rect" : [ 56.100002110004425, 1966.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 153,
+									"rnbo_serial" : 50,
 									"rnbo_uniqueid" : "str1700.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -17796,12 +18276,12 @@
 									"patching_rect" : [ 56.100002110004425, 1989.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 154,
+									"rnbo_serial" : 51,
 									"rnbo_uniqueid" : "str1701.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -18097,12 +18577,12 @@
 									"patching_rect" : [ 56.100002110004425, 2012.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 155,
+									"rnbo_serial" : 52,
 									"rnbo_uniqueid" : "str1702.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -18398,12 +18878,12 @@
 									"patching_rect" : [ 56.100002110004425, 2035.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 156,
+									"rnbo_serial" : 53,
 									"rnbo_uniqueid" : "str1703.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -18699,12 +19179,12 @@
 									"patching_rect" : [ 56.100002110004425, 2058.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 157,
+									"rnbo_serial" : 54,
 									"rnbo_uniqueid" : "str1704.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -19000,12 +19480,12 @@
 									"patching_rect" : [ 56.100002110004425, 2081.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 158,
+									"rnbo_serial" : 55,
 									"rnbo_uniqueid" : "str1705.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -19301,12 +19781,12 @@
 									"patching_rect" : [ 56.100002110004425, 2104.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 159,
+									"rnbo_serial" : 56,
 									"rnbo_uniqueid" : "str1800.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -19602,12 +20082,12 @@
 									"patching_rect" : [ 56.100002110004425, 2127.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 160,
+									"rnbo_serial" : 57,
 									"rnbo_uniqueid" : "str1801.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -19903,12 +20383,12 @@
 									"patching_rect" : [ 56.100002110004425, 2150.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 161,
+									"rnbo_serial" : 58,
 									"rnbo_uniqueid" : "str1802.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -20204,12 +20684,12 @@
 									"patching_rect" : [ 56.100002110004425, 2173.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 162,
+									"rnbo_serial" : 59,
 									"rnbo_uniqueid" : "str1900.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -20505,12 +20985,12 @@
 									"patching_rect" : [ 56.100002110004425, 2196.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 163,
+									"rnbo_serial" : 60,
 									"rnbo_uniqueid" : "str1901.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -20806,12 +21286,12 @@
 									"patching_rect" : [ 56.100002110004425, 2219.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 164,
+									"rnbo_serial" : 61,
 									"rnbo_uniqueid" : "str1902.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -21107,12 +21587,12 @@
 									"patching_rect" : [ 56.100002110004425, 2242.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 165,
+									"rnbo_serial" : 62,
 									"rnbo_uniqueid" : "str2000.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -21408,12 +21888,12 @@
 									"patching_rect" : [ 56.100002110004425, 2265.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 166,
+									"rnbo_serial" : 63,
 									"rnbo_uniqueid" : "str2001.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -21709,12 +22189,12 @@
 									"patching_rect" : [ 56.100002110004425, 2288.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 167,
+									"rnbo_serial" : 64,
 									"rnbo_uniqueid" : "str2002.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -22010,12 +22490,12 @@
 									"patching_rect" : [ 56.100002110004425, 2311.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 168,
+									"rnbo_serial" : 65,
 									"rnbo_uniqueid" : "str2003.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -22311,12 +22791,12 @@
 									"patching_rect" : [ 56.100002110004425, 2334.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 169,
+									"rnbo_serial" : 66,
 									"rnbo_uniqueid" : "str2004.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -22612,12 +23092,12 @@
 									"patching_rect" : [ 56.100002110004425, 2357.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 170,
+									"rnbo_serial" : 67,
 									"rnbo_uniqueid" : "str2005.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -22913,12 +23393,12 @@
 									"patching_rect" : [ 56.100002110004425, 2380.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 171,
+									"rnbo_serial" : 68,
 									"rnbo_uniqueid" : "str2006.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -23214,12 +23694,12 @@
 									"patching_rect" : [ 56.100002110004425, 2403.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 172,
+									"rnbo_serial" : 69,
 									"rnbo_uniqueid" : "str2007.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -23515,12 +23995,12 @@
 									"patching_rect" : [ 56.100002110004425, 2426.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 173,
+									"rnbo_serial" : 70,
 									"rnbo_uniqueid" : "str2008.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -23816,12 +24296,12 @@
 									"patching_rect" : [ 56.100002110004425, 2449.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 174,
+									"rnbo_serial" : 71,
 									"rnbo_uniqueid" : "str2009.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -24117,12 +24597,12 @@
 									"patching_rect" : [ 56.100002110004425, 2472.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 175,
+									"rnbo_serial" : 72,
 									"rnbo_uniqueid" : "str2010.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -24418,12 +24898,12 @@
 									"patching_rect" : [ 56.100002110004425, 2495.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 176,
+									"rnbo_serial" : 73,
 									"rnbo_uniqueid" : "str2011.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -24719,12 +25199,12 @@
 									"patching_rect" : [ 56.100002110004425, 2518.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 177,
+									"rnbo_serial" : 74,
 									"rnbo_uniqueid" : "str2012.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -25020,12 +25500,12 @@
 									"patching_rect" : [ 56.100002110004425, 2541.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 178,
+									"rnbo_serial" : 75,
 									"rnbo_uniqueid" : "str2013.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -25321,12 +25801,12 @@
 									"patching_rect" : [ 56.100002110004425, 2564.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 179,
+									"rnbo_serial" : 76,
 									"rnbo_uniqueid" : "str2014.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -25622,12 +26102,12 @@
 									"patching_rect" : [ 56.100002110004425, 2587.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 180,
+									"rnbo_serial" : 77,
 									"rnbo_uniqueid" : "str2015.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -25923,12 +26403,12 @@
 									"patching_rect" : [ 56.100002110004425, 2610.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 181,
+									"rnbo_serial" : 78,
 									"rnbo_uniqueid" : "str2016.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -26224,12 +26704,12 @@
 									"patching_rect" : [ 56.100002110004425, 2633.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 182,
+									"rnbo_serial" : 79,
 									"rnbo_uniqueid" : "str2017.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -26525,12 +27005,12 @@
 									"patching_rect" : [ 56.100002110004425, 2656.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 183,
+									"rnbo_serial" : 80,
 									"rnbo_uniqueid" : "str2018.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -26826,12 +27306,12 @@
 									"patching_rect" : [ 56.100002110004425, 2679.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 184,
+									"rnbo_serial" : 81,
 									"rnbo_uniqueid" : "str2019.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -27127,12 +27607,12 @@
 									"patching_rect" : [ 56.100002110004425, 2702.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 185,
+									"rnbo_serial" : 82,
 									"rnbo_uniqueid" : "str2020.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -27428,12 +27908,12 @@
 									"patching_rect" : [ 56.100002110004425, 2725.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 186,
+									"rnbo_serial" : 83,
 									"rnbo_uniqueid" : "str2021.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -27729,12 +28209,12 @@
 									"patching_rect" : [ 56.100002110004425, 2748.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 187,
+									"rnbo_serial" : 84,
 									"rnbo_uniqueid" : "str2022.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -28030,12 +28510,12 @@
 									"patching_rect" : [ 56.100002110004425, 2771.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 188,
+									"rnbo_serial" : 85,
 									"rnbo_uniqueid" : "str2023.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -28331,12 +28811,12 @@
 									"patching_rect" : [ 56.100002110004425, 2794.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 189,
+									"rnbo_serial" : 86,
 									"rnbo_uniqueid" : "str2024.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -28632,12 +29112,12 @@
 									"patching_rect" : [ 56.100002110004425, 2817.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 190,
+									"rnbo_serial" : 87,
 									"rnbo_uniqueid" : "str2025.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -28933,12 +29413,12 @@
 									"patching_rect" : [ 56.100002110004425, 2840.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 191,
+									"rnbo_serial" : 88,
 									"rnbo_uniqueid" : "str2026.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -29234,12 +29714,12 @@
 									"patching_rect" : [ 56.100002110004425, 2863.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 192,
+									"rnbo_serial" : 89,
 									"rnbo_uniqueid" : "str2027.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -29535,12 +30015,12 @@
 									"patching_rect" : [ 56.100002110004425, 2886.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 193,
+									"rnbo_serial" : 90,
 									"rnbo_uniqueid" : "str2028.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -29836,12 +30316,12 @@
 									"patching_rect" : [ 56.100002110004425, 2909.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 194,
+									"rnbo_serial" : 91,
 									"rnbo_uniqueid" : "str2029.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -30137,12 +30617,12 @@
 									"patching_rect" : [ 56.100002110004425, 2932.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 195,
+									"rnbo_serial" : 92,
 									"rnbo_uniqueid" : "str2030.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -30438,12 +30918,12 @@
 									"patching_rect" : [ 56.100002110004425, 2955.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 196,
+									"rnbo_serial" : 93,
 									"rnbo_uniqueid" : "str2031.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -30739,12 +31219,12 @@
 									"patching_rect" : [ 56.100002110004425, 2978.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 197,
+									"rnbo_serial" : 94,
 									"rnbo_uniqueid" : "str2032.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -31040,12 +31520,12 @@
 									"patching_rect" : [ 56.100002110004425, 3001.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 198,
+									"rnbo_serial" : 95,
 									"rnbo_uniqueid" : "str2033.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -31341,12 +31821,12 @@
 									"patching_rect" : [ 56.100002110004425, 3024.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 199,
+									"rnbo_serial" : 96,
 									"rnbo_uniqueid" : "str2034.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -31642,12 +32122,12 @@
 									"patching_rect" : [ 56.100002110004425, 3047.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 200,
+									"rnbo_serial" : 97,
 									"rnbo_uniqueid" : "str2035.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -31943,12 +32423,12 @@
 									"patching_rect" : [ 56.100002110004425, 3070.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 201,
+									"rnbo_serial" : 98,
 									"rnbo_uniqueid" : "str2036.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -32244,12 +32724,12 @@
 									"patching_rect" : [ 56.100002110004425, 3093.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 202,
+									"rnbo_serial" : 99,
 									"rnbo_uniqueid" : "str2037.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -32545,12 +33025,12 @@
 									"patching_rect" : [ 56.100002110004425, 3116.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 203,
+									"rnbo_serial" : 100,
 									"rnbo_uniqueid" : "str2038.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -32846,12 +33326,12 @@
 									"patching_rect" : [ 56.100002110004425, 3139.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 204,
+									"rnbo_serial" : 101,
 									"rnbo_uniqueid" : "str2039.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -33147,12 +33627,12 @@
 									"patching_rect" : [ 56.100002110004425, 3162.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 205,
+									"rnbo_serial" : 102,
 									"rnbo_uniqueid" : "str2040.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -33448,12 +33928,12 @@
 									"patching_rect" : [ 56.100002110004425, 3185.0, 214.0, 23.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"type" : ""
 									}
 ,
-									"rnbo_serial" : 206,
+									"rnbo_serial" : 103,
 									"rnbo_uniqueid" : "str2041.wav",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -34369,12 +34849,12 @@
 									"patching_rect" : [ 1582.5, 300.0, 128.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 1,
@@ -34753,12 +35233,12 @@
 									"patching_rect" : [ 1356.0, 300.0, 128.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 2,
@@ -35137,12 +35617,12 @@
 									"patching_rect" : [ 1151.0, 300.0, 128.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 3,
@@ -35521,12 +36001,12 @@
 									"patching_rect" : [ 939.0, 300.0, 128.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 4,
@@ -35905,12 +36385,12 @@
 									"patching_rect" : [ 739.0, 300.0, 128.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 5,
@@ -36289,12 +36769,12 @@
 									"patching_rect" : [ 527.0, 300.0, 128.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 6,
@@ -36980,22 +37460,22 @@
 													"patching_rect" : [ 380.0, 380.0, 63.0, 23.0 ],
 													"rnbo_classname" : "param",
 													"rnbo_extra_attributes" : 													{
-														"exponent" : 1.0,
-														"minimum" : 0.0,
-														"tonormalized" : "",
 														"displayorder" : "-",
-														"sendinit" : 1,
-														"enum" : "",
-														"maximum" : 100.0,
-														"unit" : "%",
+														"minimum" : 0.0,
 														"steps" : 0.0,
-														"preset" : 1,
-														"order" : "6",
-														"meta" : "",
-														"value" : 50.0,
 														"displayname" : "Mix",
-														"ctlin" : 6.0,
-														"fromnormalized" : ""
+														"maximum" : 100.0,
+														"meta" : "",
+														"sendinit" : 1,
+														"fromnormalized" : "",
+														"unit" : "%",
+														"tonormalized" : "",
+														"exponent" : 1.0,
+														"order" : "6",
+														"preset" : 1,
+														"value" : 50.0,
+														"enum" : "",
+														"ctlin" : 6.0
 													}
 ,
 													"rnbo_serial" : 1,
@@ -37449,9 +37929,9 @@
 																	"patching_rect" : [ 100.0, 240.0, 219.0, 23.0 ],
 																	"rnbo_classname" : "xfade~",
 																	"rnbo_extra_attributes" : 																	{
-																		"positionmode" : "phase",
 																		"inputs" : 2.0,
-																		"boundmode" : "clip"
+																		"boundmode" : "clip",
+																		"positionmode" : "phase"
 																	}
 ,
 																	"rnbo_serial" : 1,
@@ -37620,9 +38100,9 @@
 																	"patching_rect" : [ 50.0, 190.0, 219.0, 23.0 ],
 																	"rnbo_classname" : "xfade~",
 																	"rnbo_extra_attributes" : 																	{
-																		"positionmode" : "phase",
 																		"inputs" : 2.0,
-																		"boundmode" : "clip"
+																		"boundmode" : "clip",
+																		"positionmode" : "phase"
 																	}
 ,
 																	"rnbo_serial" : 2,
@@ -38669,12 +39149,12 @@
 													"patching_rect" : [ 60.0, 470.0, 219.0, 23.0 ],
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
+														"args" : [  ],
 														"polyphony" : -1.0,
 														"receivemode" : "local",
-														"args" : [  ],
-														"voicecontrol" : "midi",
+														"exposevoiceparams" : 0,
 														"notecontroller" : 0,
-														"exposevoiceparams" : 0
+														"voicecontrol" : "midi"
 													}
 ,
 													"rnbo_serial" : 1,
@@ -41652,12 +42132,12 @@
 													"patching_rect" : [ 160.0, 350.0, 155.5, 23.0 ],
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
+														"args" : [  ],
 														"polyphony" : -1.0,
 														"receivemode" : "local",
-														"args" : [  ],
-														"voicecontrol" : "midi",
+														"exposevoiceparams" : 0,
 														"notecontroller" : 0,
-														"exposevoiceparams" : 0
+														"voicecontrol" : "midi"
 													}
 ,
 													"rnbo_serial" : 2,
@@ -42670,22 +43150,22 @@
 													"patching_rect" : [ 380.0, 660.0, 69.0, 23.0 ],
 													"rnbo_classname" : "param",
 													"rnbo_extra_attributes" : 													{
-														"exponent" : 1.0,
-														"minimum" : 0.0,
-														"tonormalized" : "",
 														"displayorder" : "-",
-														"sendinit" : 1,
-														"enum" : "",
-														"maximum" : 100.0,
-														"unit" : "%",
+														"minimum" : 0.0,
 														"steps" : 0.0,
-														"preset" : 1,
-														"order" : "5",
-														"meta" : "",
-														"value" : 50.0,
 														"displayname" : "Jitter",
-														"ctlin" : 5.0,
-														"fromnormalized" : ""
+														"maximum" : 100.0,
+														"meta" : "",
+														"sendinit" : 1,
+														"fromnormalized" : "",
+														"unit" : "%",
+														"tonormalized" : "",
+														"exponent" : 1.0,
+														"order" : "5",
+														"preset" : 1,
+														"value" : 50.0,
+														"enum" : "",
+														"ctlin" : 5.0
 													}
 ,
 													"rnbo_serial" : 2,
@@ -44472,12 +44952,12 @@
 													"patching_rect" : [ 160.0, 230.0, 69.0, 37.0 ],
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
+														"args" : [  ],
 														"polyphony" : -1.0,
 														"receivemode" : "local",
-														"args" : [  ],
-														"voicecontrol" : "midi",
+														"exposevoiceparams" : 0,
 														"notecontroller" : 0,
-														"exposevoiceparams" : 0
+														"voicecontrol" : "midi"
 													}
 ,
 													"rnbo_serial" : 3,
@@ -44820,22 +45300,22 @@
 													"patching_rect" : [ 60.0, 660.0, 75.0, 23.0 ],
 													"rnbo_classname" : "param",
 													"rnbo_extra_attributes" : 													{
-														"exponent" : 1.0,
-														"minimum" : 0.0,
-														"tonormalized" : "",
 														"displayorder" : "-",
-														"sendinit" : 1,
-														"enum" : "",
-														"maximum" : 100.0,
-														"unit" : "%",
+														"minimum" : 0.0,
 														"steps" : 0.0,
-														"preset" : 1,
-														"order" : "4",
-														"meta" : "",
-														"value" : 50.0,
 														"displayname" : "Decay",
-														"ctlin" : 4.0,
-														"fromnormalized" : ""
+														"maximum" : 100.0,
+														"meta" : "",
+														"sendinit" : 1,
+														"fromnormalized" : "",
+														"unit" : "%",
+														"tonormalized" : "",
+														"exponent" : 1.0,
+														"order" : "4",
+														"preset" : 1,
+														"value" : 50.0,
+														"enum" : "",
+														"ctlin" : 4.0
 													}
 ,
 													"rnbo_serial" : 3,
@@ -45321,22 +45801,22 @@
 													"patching_rect" : [ 630.0, 410.0, 64.0, 23.0 ],
 													"rnbo_classname" : "param",
 													"rnbo_extra_attributes" : 													{
-														"exponent" : 1.0,
-														"minimum" : 0.0,
-														"tonormalized" : "",
 														"displayorder" : "-",
-														"sendinit" : 1,
-														"enum" : "",
-														"maximum" : 100.0,
-														"unit" : "%",
+														"minimum" : 0.0,
 														"steps" : 0.0,
-														"preset" : 1,
-														"order" : "3",
-														"meta" : "",
-														"value" : 50.0,
 														"displayname" : "Size",
-														"ctlin" : 3.0,
-														"fromnormalized" : ""
+														"maximum" : 100.0,
+														"meta" : "",
+														"sendinit" : 1,
+														"fromnormalized" : "",
+														"unit" : "%",
+														"tonormalized" : "",
+														"exponent" : 1.0,
+														"order" : "3",
+														"preset" : 1,
+														"value" : 50.0,
+														"enum" : "",
+														"ctlin" : 3.0
 													}
 ,
 													"rnbo_serial" : 4,
@@ -45811,22 +46291,22 @@
 													"patching_rect" : [ 630.0, 130.0, 62.0, 23.0 ],
 													"rnbo_classname" : "param",
 													"rnbo_extra_attributes" : 													{
-														"exponent" : 1.0,
-														"minimum" : 0.0,
-														"tonormalized" : "",
 														"displayorder" : "-",
-														"sendinit" : 1,
-														"enum" : "",
-														"maximum" : 100.0,
-														"unit" : "%",
+														"minimum" : 0.0,
 														"steps" : 0.0,
-														"preset" : 1,
-														"order" : "2",
-														"meta" : "",
-														"value" : 50.0,
 														"displayname" : "Diff",
-														"ctlin" : 2.0,
-														"fromnormalized" : ""
+														"maximum" : 100.0,
+														"meta" : "",
+														"sendinit" : 1,
+														"fromnormalized" : "",
+														"unit" : "%",
+														"tonormalized" : "",
+														"exponent" : 1.0,
+														"order" : "2",
+														"preset" : 1,
+														"value" : 50.0,
+														"enum" : "",
+														"ctlin" : 2.0
 													}
 ,
 													"rnbo_serial" : 5,
@@ -46312,22 +46792,22 @@
 													"patching_rect" : [ 380.0, 130.0, 74.0, 23.0 ],
 													"rnbo_classname" : "param",
 													"rnbo_extra_attributes" : 													{
-														"exponent" : 1.0,
-														"minimum" : 0.0,
-														"tonormalized" : "",
 														"displayorder" : "-",
-														"sendinit" : 1,
-														"enum" : "",
-														"maximum" : 100.0,
-														"unit" : "%",
+														"minimum" : 0.0,
 														"steps" : 0.0,
-														"preset" : 1,
-														"order" : "1",
-														"meta" : "",
-														"value" : 50.0,
 														"displayname" : "Damp",
-														"ctlin" : 1.0,
-														"fromnormalized" : ""
+														"maximum" : 100.0,
+														"meta" : "",
+														"sendinit" : 1,
+														"fromnormalized" : "",
+														"unit" : "%",
+														"tonormalized" : "",
+														"exponent" : 1.0,
+														"order" : "1",
+														"preset" : 1,
+														"value" : 50.0,
+														"enum" : "",
+														"ctlin" : 1.0
 													}
 ,
 													"rnbo_serial" : 6,
@@ -48159,12 +48639,12 @@
 													"patching_rect" : [ 250.0, 400.0, 82.0, 37.0 ],
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
+														"args" : [  ],
 														"polyphony" : -1.0,
 														"receivemode" : "local",
-														"args" : [  ],
-														"voicecontrol" : "midi",
+														"exposevoiceparams" : 0,
 														"notecontroller" : 0,
-														"exposevoiceparams" : 0
+														"voicecontrol" : "midi"
 													}
 ,
 													"rnbo_serial" : 4,
@@ -49971,12 +50451,12 @@
 													"patching_rect" : [ 160.0, 400.0, 82.0, 37.0 ],
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
+														"args" : [  ],
 														"polyphony" : -1.0,
 														"receivemode" : "local",
-														"args" : [  ],
-														"voicecontrol" : "midi",
+														"exposevoiceparams" : 0,
 														"notecontroller" : 0,
-														"exposevoiceparams" : 0
+														"voicecontrol" : "midi"
 													}
 ,
 													"rnbo_serial" : 5,
@@ -51721,12 +52201,12 @@
 													"patching_rect" : [ 238.0, 290.0, 64.0, 37.0 ],
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
+														"args" : [  ],
 														"polyphony" : -1.0,
 														"receivemode" : "local",
-														"args" : [  ],
-														"voicecontrol" : "midi",
+														"exposevoiceparams" : 0,
 														"notecontroller" : 0,
-														"exposevoiceparams" : 0
+														"voicecontrol" : "midi"
 													}
 ,
 													"rnbo_serial" : 6,
@@ -53430,12 +53910,12 @@
 													"patching_rect" : [ 160.0, 290.0, 64.0, 37.0 ],
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
+														"args" : [  ],
 														"polyphony" : -1.0,
 														"receivemode" : "local",
-														"args" : [  ],
-														"voicecontrol" : "midi",
+														"exposevoiceparams" : 0,
 														"notecontroller" : 0,
-														"exposevoiceparams" : 0
+														"voicecontrol" : "midi"
 													}
 ,
 													"rnbo_serial" : 7,
@@ -54403,12 +54883,12 @@
 													"patching_rect" : [ 160.0, 170.0, 69.0, 37.0 ],
 													"rnbo_classname" : "p",
 													"rnbo_extra_attributes" : 													{
+														"args" : [  ],
 														"polyphony" : -1.0,
 														"receivemode" : "local",
-														"args" : [  ],
-														"voicecontrol" : "midi",
+														"exposevoiceparams" : 0,
 														"notecontroller" : 0,
-														"exposevoiceparams" : 0
+														"voicecontrol" : "midi"
 													}
 ,
 													"rnbo_serial" : 8,
@@ -55663,12 +56143,12 @@
 									"patching_rect" : [ 80.800001204013824, 553.600008249282837, 109.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 7,
@@ -56128,12 +56608,12 @@
 									"patching_rect" : [ 45.5, 143.0, 148.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 8,
@@ -56512,12 +56992,12 @@
 									"patching_rect" : [ 56.5, 50.0, 148.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 9,
@@ -56834,12 +57314,12 @@
 									"patching_rect" : [ 303.200004518032074, 309.600004613399506, 128.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 10,
@@ -57218,12 +57698,12 @@
 									"patching_rect" : [ 55.60000067949295, 321.60000479221344, 128.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
+										"args" : [  ],
 										"polyphony" : -1.0,
 										"receivemode" : "local",
-										"args" : [  ],
-										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0,
 										"notecontroller" : 0,
-										"exposevoiceparams" : 0
+										"voicecontrol" : "simple"
 									}
 ,
 									"rnbo_serial" : 11,
@@ -57586,7 +58066,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 141.600002110004425, 705.600010514259338, 43.0, 23.0 ],
+									"patching_rect" : [ 141.300000846385956, 762.0, 43.0, 23.0 ],
 									"rnbo_classname" : "out~",
 									"rnbo_extra_attributes" : 									{
 										"meta" : "",
@@ -57682,7 +58162,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 56.800000846385956, 700.800010442733765, 43.0, 23.0 ],
+									"patching_rect" : [ 56.800000846385956, 757.5, 43.0, 23.0 ],
 									"rnbo_classname" : "out~",
 									"rnbo_extra_attributes" : 									{
 										"meta" : "",
@@ -57789,6 +58269,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-118", 0 ],
+									"source" : [ "obj-115", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-154", 0 ],
 									"source" : [ "obj-116", 3 ]
 								}
@@ -57845,6 +58332,36 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-119", 1 ],
+									"order" : 1,
+									"source" : [ "obj-118", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-122", 1 ],
+									"order" : 0,
+									"source" : [ "obj-118", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-119", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-122", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-22", 1 ],
 									"source" : [ "obj-124", 0 ]
 								}
@@ -57859,14 +58376,14 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
+									"destination" : [ "obj-122", 0 ],
 									"source" : [ "obj-126", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-119", 0 ],
 									"source" : [ "obj-127", 0 ]
 								}
 
@@ -58108,110 +58625,14 @@
 ,
 					"patching_rect" : [ 30.0, 480.0, 126.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"Sample02/Sample" : 						{
-							"label" : "Sample",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample08/VelVCA" : 						{
-							"label" : "VelVCA",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthKick/Pitch" : 						{
-							"label" : "Pitch",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthSnare/Level" : 						{
-							"label" : "Level",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthSnare/Pan" : 						{
-							"label" : "Pan",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample07/VelVCA" : 						{
-							"label" : "VelVCA",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample08/Level" : 						{
-							"label" : "Level",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample07/ReverbSend" : 						{
-							"label" : "ReverbSend",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample04/Pan" : 						{
-							"label" : "Pan",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample05/ReverbSend" : 						{
-							"label" : "ReverbSend",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample04/VelVCA" : 						{
-							"label" : "VelVCA",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthKick/AmpModEnvDecayTime" : 						{
-							"label" : "AmpModEnvDecayTime",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample07/Level" : 						{
-							"label" : "Level",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"Sample01/Note" : 						{
 							"label" : "Note",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"RnboPlateReverb/mix" : 						{
-							"label" : "mix",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"RnboPlateReverb/diff" : 						{
-							"label" : "diff",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample08/ReverbSend" : 						{
+						"Sample06/ReverbSend" : 						{
 							"label" : "ReverbSend",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthKick/VelVCA" : 						{
-							"label" : "VelVCA",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58222,26 +58643,8 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample01/Level" : 						{
-							"label" : "Level",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthSnare/ReverbSend" : 						{
-							"label" : "ReverbSend",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample03/VelVCA" : 						{
-							"label" : "VelVCA",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample03/Level" : 						{
-							"label" : "Level",
+						"Sample02/Pan" : 						{
+							"label" : "Pan",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58252,26 +58655,8 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample04/Transpose" : 						{
-							"label" : "Transpose",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample02/ReverbSend" : 						{
-							"label" : "ReverbSend",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthKick/Level" : 						{
-							"label" : "Level",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthSnare/VelVCA" : 						{
-							"label" : "VelVCA",
+						"Sample01/Sample" : 						{
+							"label" : "Sample",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58282,26 +58667,14 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample01/Transpose" : 						{
-							"label" : "Transpose",
+						"Sample05/Pan" : 						{
+							"label" : "Pan",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"Sample02/VelVCA" : 						{
+						"Sample08/VelVCA" : 						{
 							"label" : "VelVCA",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample07/Transpose" : 						{
-							"label" : "Transpose",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample04/ReverbSend" : 						{
-							"label" : "ReverbSend",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58312,13 +58685,97 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample01/Pan" : 						{
+						"Sample03/ReverbSend" : 						{
+							"label" : "ReverbSend",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample08/Level" : 						{
+							"label" : "Level",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample04/Note" : 						{
+							"label" : "Note",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"SynthKick/Pan" : 						{
 							"label" : "Pan",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"Sample07/Pan" : 						{
+						"SynthKick/AmpModEnvDecayTime" : 						{
+							"label" : "AmpModEnvDecayTime",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample06/VelVCA" : 						{
+							"label" : "VelVCA",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample08/ReverbSend" : 						{
+							"label" : "ReverbSend",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample02/Note" : 						{
+							"label" : "Note",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample04/Sample" : 						{
+							"label" : "Sample",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample03/VelVCA" : 						{
+							"label" : "VelVCA",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample08/Pan" : 						{
+							"label" : "Pan",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"SynthKick/Level" : 						{
+							"label" : "Level",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample07/Sample" : 						{
+							"label" : "Sample",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample07/Transpose" : 						{
+							"label" : "Transpose",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"RnboPlateReverb/jitter" : 						{
+							"label" : "jitter",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"SynthSnare/Pan" : 						{
 							"label" : "Pan",
 							"isEnum" : 0,
 							"parsestring" : ""
@@ -58330,26 +58787,14 @@
 							"parsestring" : ""
 						}
 ,
-						"RnboPlateReverb/damp" : 						{
-							"label" : "damp",
+						"Sample05/Level" : 						{
+							"label" : "Level",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"Sample04/Note" : 						{
-							"label" : "Note",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"RnboPlateReverb/size" : 						{
-							"label" : "size",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample08/Transpose" : 						{
-							"label" : "Transpose",
+						"Sample05/ReverbSend" : 						{
+							"label" : "ReverbSend",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58360,44 +58805,14 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample05/Note" : 						{
+						"SynthSnare/Note" : 						{
 							"label" : "Note",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"Sample06/VelVCA" : 						{
-							"label" : "VelVCA",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"RnboPlateReverb/decay" : 						{
-							"label" : "decay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample06/ReverbSend" : 						{
-							"label" : "ReverbSend",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample03/Pan" : 						{
-							"label" : "Pan",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample03/Transpose" : 						{
-							"label" : "Transpose",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample04/Sample" : 						{
-							"label" : "Sample",
+						"RnboPlateReverb/mix" : 						{
+							"label" : "mix",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58408,26 +58823,14 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample06/Note" : 						{
-							"label" : "Note",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample02/Note" : 						{
-							"label" : "Note",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample02/Transpose" : 						{
-							"label" : "Transpose",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample02/Pan" : 						{
+						"Sample03/Pan" : 						{
 							"label" : "Pan",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample01/Level" : 						{
+							"label" : "Level",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58438,26 +58841,8 @@
 							"parsestring" : ""
 						}
 ,
-						"SynthKick/PitchModEnvAmt" : 						{
-							"label" : "PitchModEnvAmt",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample08/Pan" : 						{
-							"label" : "Pan",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample05/Sample" : 						{
-							"label" : "Sample",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample01/Sample" : 						{
-							"label" : "Sample",
+						"Sample04/Transpose" : 						{
+							"label" : "Transpose",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58468,26 +58853,8 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample07/Note" : 						{
-							"label" : "Note",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample07/Sample" : 						{
-							"label" : "Sample",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample04/Level" : 						{
-							"label" : "Level",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample05/Pan" : 						{
-							"label" : "Pan",
+						"Sample01/Transpose" : 						{
+							"label" : "Transpose",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58498,26 +58865,14 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample06/Sample" : 						{
-							"label" : "Sample",
+						"SynthKick/Pitch" : 						{
+							"label" : "Pitch",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"RnboPlateReverb/jitter" : 						{
-							"label" : "jitter",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample06/Transpose" : 						{
-							"label" : "Transpose",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample03/ReverbSend" : 						{
-							"label" : "ReverbSend",
+						"Sample01/Pan" : 						{
+							"label" : "Pan",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58528,26 +58883,14 @@
 							"parsestring" : ""
 						}
 ,
-						"Sample03/Sample" : 						{
-							"label" : "Sample",
+						"Sample07/ReverbSend" : 						{
+							"label" : "ReverbSend",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"Sample05/Level" : 						{
-							"label" : "Level",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"Sample06/Pan" : 						{
-							"label" : "Pan",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"SynthKick/Pan" : 						{
-							"label" : "Pan",
+						"RnboPlateReverb/size" : 						{
+							"label" : "size",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -58558,21 +58901,201 @@
 							"parsestring" : ""
 						}
 ,
+						"Sample07/Level" : 						{
+							"label" : "Level",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"RnboPlateReverb/decay" : 						{
+							"label" : "decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"SynthKick/VelVCA" : 						{
+							"label" : "VelVCA",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample02/Transpose" : 						{
+							"label" : "Transpose",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample03/Level" : 						{
+							"label" : "Level",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample05/Sample" : 						{
+							"label" : "Sample",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"SynthSnare/VelVCA" : 						{
+							"label" : "VelVCA",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample04/Level" : 						{
+							"label" : "Level",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample02/Sample" : 						{
+							"label" : "Sample",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample04/ReverbSend" : 						{
+							"label" : "ReverbSend",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample06/Transpose" : 						{
+							"label" : "Transpose",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample07/VelVCA" : 						{
+							"label" : "VelVCA",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"RnboPlateReverb/damp" : 						{
+							"label" : "damp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample06/Pan" : 						{
+							"label" : "Pan",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample04/VelVCA" : 						{
+							"label" : "VelVCA",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample05/Note" : 						{
+							"label" : "Note",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"RnboPlateReverb/diff" : 						{
+							"label" : "diff",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample06/Note" : 						{
+							"label" : "Note",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample03/Transpose" : 						{
+							"label" : "Transpose",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"SynthSnare/ReverbSend" : 						{
+							"label" : "ReverbSend",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"SynthKick/PitchModEnvAmt" : 						{
+							"label" : "PitchModEnvAmt",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample02/ReverbSend" : 						{
+							"label" : "ReverbSend",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample07/Note" : 						{
+							"label" : "Note",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample02/VelVCA" : 						{
+							"label" : "VelVCA",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample06/Sample" : 						{
+							"label" : "Sample",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"SynthSnare/Level" : 						{
+							"label" : "Level",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample07/Pan" : 						{
+							"label" : "Pan",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample03/Sample" : 						{
+							"label" : "Sample",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample04/Pan" : 						{
+							"label" : "Pan",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"Sample08/Transpose" : 						{
+							"label" : "Transpose",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"Sample03/Note" : 						{
 							"label" : "Note",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"SynthSnare/Note" : 						{
-							"label" : "Note",
+						"Volume" : 						{
+							"label" : "Volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 
 					}
 ,
-					"rnboversion" : "1.3.0",
+					"rnboversion" : "1.3.2-alpha.2",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -59049,6 +59572,10 @@
 
 							}
 ,
+							"Volume" : 							{
+								"value" : -3.0
+							}
+,
 							"__presetid" : "Drumbox"
 						}
 ,
@@ -59513,6 +60040,10 @@
 
 										}
 ,
+										"Volume" : 										{
+											"value" : -3.0
+										}
+,
 										"__presetid" : "Drumbox"
 									}
 ,
@@ -59722,6 +60253,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
